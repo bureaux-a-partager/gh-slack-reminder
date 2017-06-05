@@ -8,13 +8,15 @@ This project is used to notify a team in Slack of pending pull-requests in GitHu
 
 ```bash
 # Required
-export SLACK-TOKEN=xxxx-xxxxxxxxxx-xxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-export GITHUB-TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+export SLACK_TOKEN=xxxx-xxxxxxxxxx-xxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+export GITHUB_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Optional
-export SLACK-CHANNEL=random      # Default: engineering
-export SLACK-ICON-EMOJI=:rocket: # Default: :tada:
-export SLACK-USERNAME=Bob        # Default: GitHub Reminder
+export SLACK_CHANNEL=random      # Default: engineering
+export SLACK_ICON_EMOJI=:rocket: # Default: :tada:
+export SLACK_USERNAME=Bob        # Default: GitHub Reminder
+
+export GITHUB_QUERY=is:open is:pr user:bureaux-a-partager label:RFR # Default: is:open is:pr
 
 ./build/linux/gh-slack-reminder
 ```
