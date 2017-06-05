@@ -1,4 +1,4 @@
-# Github / Slack reminder
+# Github PRs, Slack reminder
 
 [![CircleCI](https://circleci.com/gh/bureaux-a-partager/gh-slack-reminder/tree/master.svg?style=svg&circle-token=86fdb799067b80015475113b1061810f81bfb33e)](https://circleci.com/gh/bureaux-a-partager/gh-slack-reminder/tree/master)
 
