@@ -1,0 +1,8 @@
+build:
+  binary: gh-slack-reminder
+  goos:
+    - windows
+    - darwin
+    - linux
+  goarch:
+    - amd64
