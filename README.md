@@ -4,6 +4,7 @@
 
 This project is used to notify a team in Slack of pending pull-requests in GitHub.
 
+
 ## Get started
 
 ```bash
@@ -20,3 +21,15 @@ export GITHUB_QUERY=is:open is:pr user:bureaux-a-partager label:RFR # Default: i
 
 ./build/linux/gh-slack-reminder
 ```
+
+
+## License
+
+See [LICENSE](https://github.com/bureaux-a-partager/gh-slack-reminder/blob/master/LICENSE).
+
+
+## GPG Signature
+
+You can download Julien Breux's public key to verify the signature.
+
+    gpg --keyserver hkp://pgp.mit.edu --recv-keys 951C3F93B6A8C22C
