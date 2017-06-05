@@ -28,7 +28,7 @@ export GITHUB_QUERY=is:open is:pr user:bureaux-a-partager label:RFR # Default: i
 See [LICENSE](https://github.com/bureaux-a-partager/gh-slack-reminder/blob/master/LICENSE).
 
 
-## GPG Signature
+## GPG Signatures
 
 You can download Julien Breux's public key to verify the signature.
 

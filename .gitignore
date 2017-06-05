@@ -3,3 +3,5 @@ build/linux/.gitkeep
 
 build/macos/.gitkeep
 !build/macos/.gitkeep
+
+dist/
